@@ -9,44 +9,29 @@
     <authors>BluePointLilac</authors>
     <owners>BluePointLilac</owners>
     <summary>A Pure Context Menu Manager on Windows</summary>
-    <description>CopyQ monitors system clipboard and saves its content in customized tabs. Saved clipboard can be later copied and pasted directly into any application.
+    <description>**ContextMenuManager** is a pure manager of context menu on Windows
 
-Items can be:
+## Features:
 
-* edited with internal editor or with preferred text editor,
-* moved to other tabs,
-* drag'n'dropped to applications,
-* marked with tag or a note,
-* passed to or changed by custom commands, or simply removed.
+* Enable or disable items of context menu for: File, Folder, New, Send to, Open with, Associated programs and etc.
+* Allow operating items with: name/icon modifying, registry key/file locating, deleting and etc.
+* Customize commands of items
 
-## Features
+## Compatibility
 
-* Support for Linux, Windows and OS X 10.9+
-* Store text, HTML, images or any other custom formats
-* Quickly browse and filter items in clipboard history
-* Sort, create, edit, remove, copy/paste, drag'n'drop items in tabs
-* Add notes or tags to items
-* System-wide shortcuts with customizable commands
-* Paste items with shortcut or from tray or main window
-* Fully customizable appearance
-* Advanced command-line interface and scripting
-* Ignore clipboard copied from some windows or containing some text
-* Support for simple Vim-like editor and shortcuts
-* Many more features
+* Support for Windows 7, 8/8.1, 10 and Vista
+* Run on both x32/x64 platform
+* HiDPI support, the recommended scale is 150%
+* Multi-languages support, only Simplified Chinese supported now, please join us for contributing your own translations
 
-## Package parameters
-
-* `NoDesktopIcon` - do not create desktop icon
-* `NoStartup`   - do not run CopyQ on OS startup
-
-![screenshot](https://cdn.rawgit.com/majkinetor/chocolatey/master/copyq/screenshot.png)
+![screenshot](https://raw.githubusercontent.com/BluePointLilac/ContextMenuManager/master/Screenshot.png)
 </description>
     <projectUrl>https://github.com/BluePointLilac/ContextMenuManager</projectUrl>
     <tags>system context-menu utility</tags>
     <copyright></copyright>
     <licenseUrl>https://github.com/BluePointLilac/ContextMenuManager/blob/master/LICENSE</licenseUrl>
     <requireLicenseAcceptance>false</requireLicenseAcceptance>
-    <iconUrl>TODO</iconUrl>
+    <iconUrl>https://rawcdn.githack.com/tshanli/choco-au-packages/c92e251992ba1ef4326eaa87f144bf6e5eae1aa1/contextmenumanager/icon.png</iconUrl>
     <dependencies>
       <dependency id="chocolatey-core.extension" version="1.2" />
     </dependencies>
@@ -54,7 +39,7 @@ Items can be:
     <docsUrl>https://github.com/BluePointLilac/ContextMenuManager/blob/master/README.md</docsUrl>
     <bugTrackerUrl>https://github.com/BluePointLilac/ContextMenuManager/issues</bugTrackerUrl>
     <projectSourceUrl>https://github.com/BluePointLilac/ContextMenuManager</projectSourceUrl>
-    <packageSourceUrl>https://github.com/tshanli/choco-au-packages/contextmenumanager</packageSourceUrl>
+    <packageSourceUrl>https://github.com/tshanli/choco-au-packages/tree/main/contextmenumanager</packageSourceUrl>
   </metadata>
   <files>
     <file src="tools\**" target="tools" />

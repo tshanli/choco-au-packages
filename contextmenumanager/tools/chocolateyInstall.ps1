@@ -1,33 +1,18 @@
 ﻿$ErrorActionPreference = 'Stop'
 
 $packageName = 'contextmenumanager'
+$softwareName = 'ContextMenuManager'
 
-$fileType      = 'exe'
-$toolsDir      = Split-Path $MyInvocation.MyCommand.Definition
+$fileType = 'exe'
+$toolsDir = Split-Path $MyInvocation.MyCommand.Definition
 $embedded_path = gi "$toolsDir\*.$fileType"
+$programName = $embedded_path.Name
+$installDir = Join-Path -Path $env:ChocolateyToolsLocation -ChildPath $packageName
+$destination = Join-Path -Path $installDir -ChildPath $programName
 
-$pp = Get-PackageParameters
-$tasks=@()
-if (!$pp.NoStartup)     { Write-Host 'Automatically start with Windows'; $tasks += 'startup'}
-if (!$pp.NoDesktopIcon) { Write-Host 'Create desktop icon'; $tasks += 'desktopicon' }
+$shortcutsPath = Join-Path -Path ([System.Environment]::GetFolderPath('Programs')) -ChildPath ($softwareName + ".lnk")
 
-$packageArgs = @{
-  packageName    = $packageName
-  fileType       = $fileType
-  file           = $embedded_path
-  silentArgs     = '/VERYSILENT /TASKS=' + ($tasks -join ',')
-  validExitCodes = @(0)
-  softwareName   = $packageName
-}
-Install-ChocolateyInstallPackage @packageArgs
-rm $embedded_path -ea 0
-
-$packageName = $packageArgs.packageName
-$installLocation = Get-AppInstallLocation $packageName
-if (!$installLocation)  { Write-Warning "Can't find $packageName install location"; return }
-Write-Host "$packageName installed to '$installLocation'"
-
-Register-Application "$installLocation\$packageName.exe"
-Write-Host "$packageName registered as $packageName"
-
-start "$installLocation\$packageName.exe"
+if (!(Test-Path $env:ChocolateyToolsLocation)) { mkdir ($env:ChocolateyToolsLocation = "C:\Tools") -Force }
+if (!(Test-Path $installDir)) { mkdir $installDir -Force }
+Move-Item -Path $embedded_path.FullName -Destination $destination -Force -Verbose
+Install-ChocolateyShortcut -shortcutFilePath $shortcutsPath -targetPath $destination
