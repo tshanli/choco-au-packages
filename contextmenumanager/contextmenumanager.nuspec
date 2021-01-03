@@ -5,9 +5,9 @@
     <!-- Read this before publishing packages to chocolatey.org: https://github.com/chocolatey/chocolatey/wiki/CreatePackages -->
     <id>contextmenumanager</id>
     <title>ContextMenuManager</title>
-    <version>2.1.0.0</version>
+    <version>2.2.0.0</version>
     <authors>BluePointLilac</authors>
-    <owners>BluePointLilac</owners>
+    <owners>tshanli</owners>
     <summary>A Pure Context Menu Manager on Windows</summary>
     <description>**ContextMenuManager** is a pure manager of context menu on Windows
 
@@ -28,14 +28,14 @@
 </description>
     <projectUrl>https://github.com/BluePointLilac/ContextMenuManager</projectUrl>
     <tags>system context-menu utility</tags>
-    <copyright></copyright>
+    <copyright>Tshan Li</copyright>
     <licenseUrl>https://github.com/BluePointLilac/ContextMenuManager/blob/master/LICENSE</licenseUrl>
     <requireLicenseAcceptance>false</requireLicenseAcceptance>
     <iconUrl>https://rawcdn.githack.com/tshanli/choco-au-packages/c92e251992ba1ef4326eaa87f144bf6e5eae1aa1/contextmenumanager/icon.png</iconUrl>
-    <dependencies>
+    <!-- <dependencies>
       <dependency id="chocolatey-core.extension" version="1.2" />
-    </dependencies>
-    <releaseNotes>https://github.com/BluePointLilac/ContextMenuManager/releases/tag/2.1.0.0</releaseNotes>
+    </dependencies> -->
+    <releaseNotes>https://github.com/BluePointLilac/ContextMenuManager/releases/tag/2.2.0.0</releaseNotes>
     <docsUrl>https://github.com/BluePointLilac/ContextMenuManager/blob/master/README.md</docsUrl>
     <bugTrackerUrl>https://github.com/BluePointLilac/ContextMenuManager/issues</bugTrackerUrl>
     <projectSourceUrl>https://github.com/BluePointLilac/ContextMenuManager</projectSourceUrl>
