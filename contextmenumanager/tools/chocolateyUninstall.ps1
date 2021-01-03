@@ -2,7 +2,7 @@
 
 $packageName = 'contextmenumanager'
 $softwareName = 'ContextMenuManager'
-$installDir = Join-Path -Path $env:ChocolateyToolsLocation -ChildPath $packageName
+$installDir = Join-Path -Path (Get-ToolsLocation) -ChildPath $packageName
 
 $shortcutDir = [System.Environment]::GetFolderPath('Programs')
 $shortcutPath = Join-Path -Path $shortcutDir -ChildPath ($softwareName + ".lnk")
