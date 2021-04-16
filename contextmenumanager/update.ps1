@@ -36,7 +36,7 @@ function global:au_GetLatest {
 
     $download_page = Invoke-WebRequest -Uri $releases
 
-    $re = "ContextMenuManager.NET.4.exe"
+    $re = "ContextMenuManager.NET.4.0.exe"
     $url = $download_page.links | ? href -match $re | select -expand href -First 1
     $url = 'https://github.com' + $url
 

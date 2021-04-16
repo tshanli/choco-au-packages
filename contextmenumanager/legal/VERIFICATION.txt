@@ -7,7 +7,7 @@ Package can be verified like this:
 
 1. Go to
 
-   x32: https://github.com/BluePointLilac/ContextMenuManager/releases/download/2.2.0.0/ContextMenuManager.NET.4.exe
+   x32: https://github.com/BluePointLilac/ContextMenuManager/releases/download/3.2.0.0/ContextMenuManager.NET.4.0.exe
 
    to download the installer.
 
@@ -15,11 +15,11 @@ Package can be verified like this:
    - Use powershell function 'Get-FileHash'
    - Use Chocolatey utility 'checksum.exe'
 
-   checksum32: 882680F00F6490126F07930B492F2B378A9E105239BA9794E6FEAAB97A60FE4D
+   checksum32: 30650FB26D99C56403791E207A55DCD3C3994EA2F2F8CD83A4A4631022297426
 
 Using AU:
 
-   Get-RemoteChecksum https://github.com/BluePointLilac/ContextMenuManager/releases/download/2.2.0.0/ContextMenuManager.NET.4.exe
+   Get-RemoteChecksum https://github.com/BluePointLilac/ContextMenuManager/releases/download/3.2.0.0/ContextMenuManager.NET.4.0.exe
 
 File 'license.txt' is obtained from:
    https://raw.githubusercontent.com/hluk/CopyQ/master/LICENSE

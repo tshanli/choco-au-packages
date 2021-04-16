@@ -5,7 +5,7 @@
     <!-- Read this before publishing packages to chocolatey.org: https://github.com/chocolatey/chocolatey/wiki/CreatePackages -->
     <id>contextmenumanager</id>
     <title>ContextMenuManager</title>
-    <version>2.2.0.0</version>
+    <version>3.2.0.0</version>
     <authors>BluePointLilac</authors>
     <owners>tshanli</owners>
     <summary>A Pure Context Menu Manager on Windows</summary>
@@ -35,7 +35,7 @@
     <!-- <dependencies>
       <dependency id="chocolatey-core.extension" version="1.2" />
     </dependencies> -->
-    <releaseNotes>https://github.com/BluePointLilac/ContextMenuManager/releases/tag/2.2.0.0</releaseNotes>
+    <releaseNotes>https://github.com/BluePointLilac/ContextMenuManager/releases/tag/3.2.0.0</releaseNotes>
     <docsUrl>https://github.com/BluePointLilac/ContextMenuManager/blob/master/README.md</docsUrl>
     <bugTrackerUrl>https://github.com/BluePointLilac/ContextMenuManager/issues</bugTrackerUrl>
     <projectSourceUrl>https://github.com/BluePointLilac/ContextMenuManager</projectSourceUrl>
