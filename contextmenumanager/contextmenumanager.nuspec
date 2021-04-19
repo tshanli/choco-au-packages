@@ -28,7 +28,7 @@
 </description>
     <projectUrl>https://github.com/BluePointLilac/ContextMenuManager</projectUrl>
     <tags>system context-menu utility</tags>
-    <copyright>Tshan Li</copyright>
+    <copyright>BluePointLilac</copyright>
     <licenseUrl>https://github.com/BluePointLilac/ContextMenuManager/blob/master/LICENSE</licenseUrl>
     <requireLicenseAcceptance>false</requireLicenseAcceptance>
     <iconUrl>https://rawcdn.githack.com/tshanli/choco-au-packages/c92e251992ba1ef4326eaa87f144bf6e5eae1aa1/contextmenumanager/icon.png</iconUrl>
