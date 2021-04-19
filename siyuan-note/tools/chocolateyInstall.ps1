@@ -14,12 +14,4 @@ $packageArgs = @{
 }
 
 Install-ChocolateyInstallPackage @packageArgs
-# ls $toolsPath\*.exe | % { rm $_ }
-
-# $packageName = $packageArgs.packageName
-# $installLocation = Get-AppInstallLocation $packageName
-# if (!$installLocation)  { Write-Warning "Can't find $packageName install location"; return }
-# Write-Host "$packageName installed to '$installLocation'"
-
-# Register-Application "$installLocation\$packageName.exe"
-# Write-Host "$packageName registered as $packageName"
+ls $toolsPath\*.exe | % { rm $_ }

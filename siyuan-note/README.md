@@ -28,4 +28,4 @@
   * Copy to WeChat MP, Zhihu and Yuque
 * Versioning and Sync
   * [Online Workspace](https://ld246.com/xanadu/)
-  * [Online Publishing](https://ld246.com/udanax/
+  * [Online Publishing](https://ld246.com/udanax/)
