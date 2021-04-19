@@ -1,0 +1,15 @@
+License Agreement
+This license agreement applies and only applies to SiYuan (hereinafter referred to as the "software"). Yunnan Liandi Technology Co., Ltd. has the final right to interpret this license agreement.
+
+Once you confirm this agreement and start to use the software, you are deemed to fully understand and accept the terms of this agreement. The authorization agreement in electronic text is the same as the agreement signed by both parties in writing, which has full and equivalent legal effect.
+
+While enjoying the power granted by the clause, it is subject to relevant constraints and restrictions. Acts outside the scope of the agreement will directly violate this authorization agreement and constitute infringement. We have the right to terminate the authorization at any time, order the damage to stop, and reserve the right to pursue relevant liabilities.
+
+Rights permitted by agreement
+You can use this software within the constraints and limitations specified in the agreement
+You own the ownership of the content written by this software and independently assume legal obligations related to these content
+Restrictions and limitations stipulated in the agreement
+Without official permission, it is prohibited to develop derivative versions, modified versions or third-party versions for redistribution based on the whole or any part of this software
+If you fail to comply with the terms of this agreement, your authorization will be terminated, the licensed rights will be taken back, and you will bear the corresponding legal responsibilities
+Limited warranty and disclaimer
+This software and the accompanying files are provided as a form of not providing any explicit or implicit compensation or guarantee.

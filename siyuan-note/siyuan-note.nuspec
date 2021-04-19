@@ -1,0 +1,61 @@
+<?xml version="1.0" encoding="utf-8"?>
+<package xmlns="http://schemas.microsoft.com/packaging/2010/07/nuspec.xsd">
+    <metadata>
+        <id>siyuan-note</id>
+        <title>SiYuan</title>
+        <version>1.1.83</version>
+        <authors>siyuan-note</authors>
+        <owners>tshanli</owners>
+        <summary>SiYuan is a local-first personal knowledge management system, support fine-grained block-level reference and Markdown instant-render editing.</summary>
+        <description>## ✨  Features
+* Content block
+  * Block-level reference and two-way links
+  * Document relationship diagram, global relationship diagram
+  * Bookmark collection
+  * Dynamic query embed
+  * URL for browser visit or link with other software
+* Markdown
+  * Instant Rendering editing mode similar to Typora
+  * Support mathematical formulas, charts, flowcharts, Gantt charts, timing charts, staffs, etc.
+  * Paste HTML automatically converted to Markdown
+  * Configure Markdown to analyze detailed rendering parameters
+* MinMap mode
+  * Support zoom, drag, layout and theme, etc.
+  * Keep editing and Markdown in sync
+* Use on the browser, support mobile-end
+* Hierarchical tag
+* Multi-window, multi-tab, drag and drop to split screen
+* WebDAV
+* Fulltext search
+* Themes and icons
+  * Built-in bright and dark themes
+  * Built-in two sets of icons, Material and Ant Design
+  * Support custom themes and icons
+* Export
+  * Standard Markdown and TextBundle export
+  * Content block reference provides anchor text + embedded blockquote option
+  * Copy to WeChat MP, Zhihu and Yuque
+* Versioning and Sync
+  * [Online Workspace](https://ld246.com/xanadu/)
+  * [Online Publishing](https://ld246.com/udanax/
+</description>
+        <projectUrl>https://github.com/siyuan-note/siyuan</projectUrl>
+        <tags>markdown notebook webdav note-taking pkm mindmap textbundle</tags>
+        <copyright>© 2010-2021 Yunnan Liandi Technology Co., Ltd.</copyright>
+        <licenseUrl>https://b3log.org/siyuan/en/eula.html</licenseUrl>
+        <requireLicenseAcceptance>false</requireLicenseAcceptance>
+        <iconUrl>https://rawcdn.githack.com/tshanli/choco-au-packages/79f43f1a1e338fe82a2b9916fc3073675ef877f6/siyuan-note/siyuan-note.png</iconUrl>
+        <!-- <dependencies>
+      <dependency id="chocolatey-core.extension" version="1.2" />
+    </dependencies> -->
+        <releaseNotes>https://github.com/siyuan-note/siyuan/releases/tag/1.1.83</releaseNotes>
+        <docsUrl>https://ld246.com/domain/siyuan</docsUrl>
+        <bugTrackerUrl>https://github.com/siyuan-note/siyuan/issues</bugTrackerUrl>
+        <projectSourceUrl>https://github.com/siyuan-note/siyuan</projectSourceUrl>
+        <packageSourceUrl>https://github.com/tshanli/choco-au-packages/tree/main/siyuan-note</packageSourceUrl>
+    </metadata>
+    <files>
+        <file src="tools\**" target="tools" />
+        <file src="legal\**" target="legal" />
+    </files>
+</package>
